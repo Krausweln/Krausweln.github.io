@@ -1,0 +1,157 @@
+*{
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+  
+} 
+
+
+body {
+  background-color: #fff;
+
+}
+
+.header-title {
+  font-size: 4rem;
+}
+
+.navbar{
+  background-color: transparent;
+  border-bottom: 1px solid white;
+}
+
+.navbar a{
+  color: white;
+}
+
+.navbar a:hover{
+  color: #ECECEC;
+}
+
+.header{
+  /*background-image: url(img-umum/header-3.jpg);*/
+  background-image: url(../img/header-4.jpg) ;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.gas{
+  margin-left: 300px;
+}
+
+.header-text h1{
+  font-size: 80px;
+  margin-top: 100px;
+  color: white;
+}
+
+
+/* .main{
+  padding: 86px;
+  overflow: hidden;
+} */
+
+.foto-1{
+  /* margin-top: 145px; */
+  width: 100%;
+  border-radius: 30px;
+  position: relative;
+  z-index: 2;
+}
+.text-1{
+  background-color: #94B49F;
+  padding: 2rem;
+  border-radius: 2rem;
+  width: 100%;
+  height: 100%;
+  min-height: 16rem;
+  z-index: 2;
+  position: relative;
+}
+
+
+.paragraf-1{
+  padding-top: 26px;
+  text-align: left;
+  text-align: justify;
+}
+
+
+.foto-2{
+  /* margin-top: 145px; */
+  border-radius: 30px;
+  position: relative;
+  z-index: 3;
+}
+
+.text-2{
+  /* margin-top: 100px; */
+  /* left: 85px; */
+  background-color: #94B49F;
+  padding: 2rem;
+  border-radius: 2rem;
+  width: 100%;
+  height: 100%;
+  min-height: 18rem;
+  z-index: 2;
+  position: relative;
+}
+
+.foto-3{
+  width: 100%;
+  border-radius: 30px;
+  position: relative;
+  z-index: 2;
+}
+
+.wayang-2{
+  position: absolute;
+  width: auto;
+  max-width: 300px;
+  opacity: 0.5;
+  top: 0%;
+  left: 100px;
+  transform: rotate(-43.83deg);
+}
+
+.wayang-0{
+  position: absolute;
+  width: auto;
+  max-width: 300px;
+  opacity: 0.5;
+  top: 0%;
+  right: 9%;
+  z-index: 1;
+  transform: scaleX(-1) rotate(-30deg);
+}
+
+  .wayang{
+    position: absolute;
+    width: auto;
+    max-width: 300px;
+    opacity: 0.5;
+    bottom: 40%;    
+    left: 0%;
+    z-index: 1;
+    transform: rotate(-43.83deg);
+  }
+
+
+  /* was trying to style the scrollbar */
+  ::-webkit-scrollbar {
+    display: none;
+  }
+/* 
+  ::-webkit-scrollbar-track {
+    background-color: none;
+  }
+
+  ::-webkit-scrollbar-track-piece {
+    background-color: none;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    border-radius: 1rem;
+    background-color: black;
+    color: black;
+  } */
