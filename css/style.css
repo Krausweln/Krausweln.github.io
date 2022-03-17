@@ -14,6 +14,14 @@ img {
   image-rendering: optimizeSpeed;
 }
 
+a {
+  color: white;
+}
+
+a:hover {
+  color: #FF5959;
+}
+
 /* section.header {
   overflow-y: hidden;
 } */
@@ -226,6 +234,12 @@ h2 {
     margin-top: 2rem;
   }
 
+  .selengkapnya {
+    background-color: #17141D;
+    color: white;
+    padding: 5px;
+  }
+
   .wayang-0 {
     right: 0%;
     top: 5%;
@@ -287,6 +301,21 @@ h2 {
 
 }
 
+.team-member {
+  box-shadow: 17px 22px 53px 2px rgba(23,20,29,0.49);
+-webkit-box-shadow: 17px 22px 53px 2px rgba(23,20,29,0.49);
+-moz-box-shadow: 17px 22px 53px 2px rgba(23,20,29,0.49);
+}
+
+.team-desc {
+  font-size: 1.25rem;
+}
+
+.team-header {
+  font-size: 3rem;
+}
+
 .footer {
   background-color: #17141D;
 }
+
