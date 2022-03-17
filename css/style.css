@@ -54,6 +54,15 @@ img {
   margin-left: 300px;
 }
 
+.container-content-1 {
+  border-radius: 3rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  background-color: white;
+  width: 100%;
+}
+
 .header-text h1{
   margin-left: 7rem;
   font-size: 80px;
@@ -93,6 +102,7 @@ img {
 
 
 .paragraf-1{
+  font-size: 1.5rem;
   padding-top: 26px;
   text-align: left;
   text-align: justify;
@@ -188,8 +198,20 @@ img {
 }
 
 @media only screen and (max-width: 768px) {
+
+  .container-content-1 {
+    flex-wrap: wrap-reverse;
+    padding: 0;
+  }
+
+  .paragraf-1 {
+    font-size: 1rem;
+  }
+
   .foto-1 {
-    margin-top: 2rem;
+    /* margin-top: 2rem; */
+    margin-top: -2px;
+    width: 100%;
   }
 
   .text-2 {
@@ -216,8 +238,7 @@ img {
     width: 100%;
   }
   .lingkaran {
-    width: 100%;
-    max-width: 16rem;
+    display: none;
   }
 }
 
@@ -233,9 +254,16 @@ img {
 
   }
 
-    .foto-1 {
-      width: 100%;
-    }
+  .foto-1 {
+    width: 100%;
+    right: 0%;
+  }
+
+  
+
+  .container.container-content-1 {
+    padding: 0;
+  }
 
 }
 
