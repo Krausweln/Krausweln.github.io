@@ -77,7 +77,7 @@ img {
 .foto-1{
   /* margin-top: 145px; */
   width: 50%;
-  border-radius: 30px;
+  /* border-radius: 30px; */
   position: relative;
   z-index: 2;
 }
@@ -110,7 +110,7 @@ img {
 
 .foto-2{
   /* margin-top: 145px; */
-  border-radius: 30px;
+  /* border-radius: 30px; */
   position: relative;
   z-index: 3;
 }
@@ -164,7 +164,7 @@ img {
     top: 4%;
     left: 0%;
     z-index: 1;
-    transform: rotate(-43.83deg);
+    transform: rotate(15sdeg);
   }
 
 
@@ -225,7 +225,7 @@ img {
     left: 0%;
     top: 3%;
     max-width: 245px;
-    transform: rotate(0deg);
+    transform: rotate(25deg);
   }
 
   .wayang-2 {
@@ -243,6 +243,7 @@ img {
 
 .lingkaran {
   position: absolute;
+  display: block;
   top: 30%;
   right: 0%;
 }
@@ -262,6 +263,21 @@ img {
 
   .container.container-content-1 {
     padding: 0;
+  }
+
+  .wayang {
+    top: 0%;
+    right: 0%;
+  }
+
+  .wayang-0 {
+    right: 0%;
+    top: 0%;
+  }
+
+  .wayang-2 {
+    right:0%;
+    top: 0%;
   }
 
 }
