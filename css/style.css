@@ -2,12 +2,11 @@
   font-family: 'Poppins', sans-serif;
   box-sizing: border-box;
   overflow-x: hidden;
-  
 } 
 
 
 body {
-  background-color: #fff;
+  background-color: #17141D;
 
 }
 
@@ -20,7 +19,12 @@ img {
 } */
 
 .header-title {
+  color: white;
+  /* left: 37%;
+  top: 0%;
+  position: absolute; */
   font-size: 4rem;
+  z-index: 10;
 }
 
 .navbar{
@@ -49,6 +53,15 @@ img {
   margin-left: 300px;
 }
 
+.container-content-1 {
+  border-radius: 3rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  background-color: white;
+  width: 100%;
+}
+
 .header-text h1{
   margin-left: 7rem;
   font-size: 80px;
@@ -63,13 +76,20 @@ img {
 
 .foto-1{
   /* margin-top: 145px; */
-  width: 100%;
+  width: 50%;
   border-radius: 30px;
   position: relative;
   z-index: 2;
 }
+
+.img1-shadow {
+  box-shadow: 28px 52px 106px -39px rgba(3,42,91,0.88);
+-webkit-box-shadow: 28px 52px 106px -39px rgba(3,42,91,0.88);
+-moz-box-shadow: 28px 52px 106px -39px rgba(3,42,91,0.88);
+}
+
 .text-1{
-  background-color: #94B49F;
+  /* background-color: #94B49F; */
   padding: 2rem;
   border-radius: 2rem;
   width: 100%;
@@ -81,6 +101,7 @@ img {
 
 
 .paragraf-1{
+  font-size: 1.5rem;
   padding-top: 26px;
   text-align: left;
   text-align: justify;
@@ -176,8 +197,20 @@ img {
 }
 
 @media only screen and (max-width: 768px) {
+
+  .container-content-1 {
+    flex-wrap: wrap-reverse;
+    padding: 0;
+  }
+
+  .paragraf-1 {
+    font-size: 1rem;
+  }
+
   .foto-1 {
-    margin-top: 2rem;
+    /* margin-top: 2rem; */
+    margin-top: -2px;
+    width: 100%;
   }
 
   .text-2 {
@@ -203,6 +236,34 @@ img {
     margin: 0;
     width: 100%;
   }
+  .lingkaran {
+    display: none;
+  }
+}
+
+.lingkaran {
+  position: absolute;
+  top: 30%;
+  right: 0%;
+}
+
+@media only screen and (min-width: 768px) {
+
+  .text-1 {
+
+  }
+
+  .foto-1 {
+    width: 100%;
+    right: 0%;
+  }
+
+  
+
+  .container.container-content-1 {
+    padding: 0;
+  }
+
 }
 
 /* animation part */
