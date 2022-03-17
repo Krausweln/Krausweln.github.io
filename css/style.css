@@ -223,12 +223,14 @@ img {
 
   .wayang-0 {
     right: 0%;
+    top: 5%;
+    max-width: 150px;
   }
 
   .wayang {
     left: 0%;
-    top: 3%;
-    max-width: 245px;
+    top: 15%;
+    max-width: 150px;
     transform: rotate(25deg);
   }
 
