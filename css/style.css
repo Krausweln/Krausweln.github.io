@@ -7,7 +7,7 @@
 
 
 body {
-  background-color: #fff;
+  background-color: #17141D;
 
 }
 
@@ -20,7 +20,12 @@ img {
 } */
 
 .header-title {
+  color: white;
+  /* left: 37%;
+  top: 0%;
+  position: absolute; */
   font-size: 4rem;
+  z-index: 10;
 }
 
 .navbar{
@@ -63,13 +68,20 @@ img {
 
 .foto-1{
   /* margin-top: 145px; */
-  width: 100%;
+  width: 50%;
   border-radius: 30px;
   position: relative;
   z-index: 2;
 }
+
+.img1-shadow {
+  box-shadow: 28px 52px 106px -39px rgba(3,42,91,0.88);
+-webkit-box-shadow: 28px 52px 106px -39px rgba(3,42,91,0.88);
+-moz-box-shadow: 28px 52px 106px -39px rgba(3,42,91,0.88);
+}
+
 .text-1{
-  background-color: #94B49F;
+  /* background-color: #94B49F; */
   padding: 2rem;
   border-radius: 2rem;
   width: 100%;
@@ -203,6 +215,28 @@ img {
     margin: 0;
     width: 100%;
   }
+  .lingkaran {
+    width: 100%;
+    max-width: 16rem;
+  }
+}
+
+.lingkaran {
+  position: absolute;
+  top: 30%;
+  right: 0%;
+}
+
+@media only screen and (min-width: 768px) {
+
+  .text-1 {
+
+  }
+
+    .foto-1 {
+      width: 100%;
+    }
+
 }
 
 /* animation part */
