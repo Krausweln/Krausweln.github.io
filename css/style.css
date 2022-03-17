@@ -4,6 +4,9 @@
   overflow-x: hidden;
 } 
 
+.col {
+  background-color: #17141D;
+}
 
 body {
   background-color: #17141D;
@@ -238,6 +241,7 @@ h2 {
     background-color: #17141D;
     color: white;
     padding: 5px;
+    transition: .3s;
   }
 
   .wayang-0 {
@@ -313,6 +317,10 @@ h2 {
 
 .team-header {
   font-size: 3rem;
+}
+
+.team-pict:hover {
+  transform: scale(1.5);
 }
 
 .footer {
