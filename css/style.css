@@ -54,7 +54,7 @@ img {
 }
 
 .container-content-1 {
-  border-radius: 3rem;
+  border-radius: 2rem;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -201,6 +201,7 @@ img {
   .container-content-1 {
     flex-wrap: wrap;
     padding: 0;
+    border-radius: .75rem;
   }
 
   .container-content-2 {
@@ -266,7 +267,6 @@ img {
   }
 
   
-
   .container.container-content-1 {
     padding: 0;
   }
