@@ -39,13 +39,13 @@ a {
     width: 400px;
     min-width: 250px;
     border-radius: 16px;
-    background: #17141d;
-    box-shadow: -1rem 0 1rem #17141d;
+    background: transparent;
+    box-shadow: -47px 1px 87px -50px rgba(23,20,29,0.9);
     display: flex;
     flex-direction: column;
     transition: .2s;
-    margin: 0;
-    padding: 0;
+    margin: 0%;
+    padding: 0%;
     scroll-snap-align: start;
     position: relative;
 }
@@ -165,7 +165,7 @@ a {
     text-shadow: none;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
-    -webkit-box-decoration-break: clone;
+    /* -webkit-box-decoration-break: clone; */
     background-clip: text;
     border-color: white;
 }
@@ -200,4 +200,11 @@ a {
     background-image: url('../export/garudaWisnuKencana.png');
     background-repeat: no-repeat;
     background-size: contain;
+}
+
+/* responsive elements start here */
+@media only screen and (max-width: 768px) {
+    .card:focus-within~.card, .card:hover~.card {
+        transform: translateX(6rem);
+    }      
 }
