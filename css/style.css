@@ -24,7 +24,11 @@ a {
   color: white;
 }
 
-a:hover {
+.fa {
+  transition: .5s ;
+}
+
+.fa:hover {
   color: #FF5959;
 }
 
