@@ -8,7 +8,9 @@
   background-color: #17141D;
 }
 
-
+#text {
+  transition-delay: .2s;
+}
 
 body {
   /* background-color: #17141D; */
@@ -62,6 +64,7 @@ a {
   /*background-image: url(img-umum/header-3.jpg);*/
   /* background-image: url(../img/header-4.jpg) ; */
   height: 100vh;
+  background-attachment: fixed;
   overflow-y: hidden;
   transition: all .5s;
   background-size: cover;
