@@ -56,16 +56,16 @@ a:hover {
 
 .header{
   /*background-image: url(img-umum/header-3.jpg);*/
-  background-image: url(../img/header-4.jpg) ;
-  background-size: cover;
-  background-position: center;
+  /* background-image: url(../img/header-4.jpg) ; */
   height: 100vh;
   overflow-y: hidden;
+  transition: all .5s;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  image-rendering: optimizeSpeed;
 }
 
-.gas{
-  margin-left: 300px;
-}
 
 .container-content-1 {
   border-radius: 2rem;
@@ -76,7 +76,8 @@ a:hover {
   width: 100%;
 }
 
-.header-text h1{
+.header-text {
+  transition: all .5s;
   font-size: 7rem;
   color: white;
   text-align: left;
@@ -179,7 +180,7 @@ h2 {
 
 /* responsive elements starts here */
 @media only screen and (max-width: 500px) {
-  .header-text h1 {
+  .header-text {
     font-size: 3rem;
     margin: 0;
   }
@@ -193,7 +194,7 @@ h2 {
     border-radius: .75rem;
   }
 
-  .header-text h1 {
+  .header-text {
     font-size: 4rem;
   }
   
@@ -239,7 +240,7 @@ h2 {
     top: 0%;
   }
 
-  .header-text h1 {
+  .header-text {
     margin: 0;
     text-align: left;
   }
