@@ -127,14 +127,6 @@ h2 {
   color: #17141D;
 }
 
-
-.foto-2{
-  /* margin-top: 145px; */
-  /* border-radius: 30px; */
-  position: relative;
-  z-index: 3;
-}
-
 .text-2{
   /* margin-top: 100px; */
   /* left: 85px; */
@@ -148,12 +140,6 @@ h2 {
   position: relative;
 }
 
-.foto-3{
-  width: 100%;
-  border-radius: 30px;
-  position: relative;
-  z-index: 2;
-}
 
 .wayang-2{
   position: absolute;
@@ -245,7 +231,7 @@ h2 {
 
   .wayang {
     left: -5%;
-    top: 15%;
+    top: 25%;
     max-width: 150px;
   }
 
@@ -333,3 +319,7 @@ h2 {
   margin-top: 9rem;
 }
 
+.img-dev-res {
+  width: 50%;
+  background-color: transparent;
+}
