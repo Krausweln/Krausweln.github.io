@@ -1,5 +1,5 @@
 * {
-  font-family: 'Poppins', sans-serif;
+  /* font-family: 'Poppins', sans-serif; */
   /* font-family: 'Varela Round', sans-serif; */
   /* font-family: 'Roboto', sans-serif; */
 }
@@ -51,7 +51,6 @@
   /* background-color: #1D2D50; */
   /*background-color: #2d4263;*/
   background: #17141D;
-  /* background-color: #041C32; */
   /*margin-top: 50px;*/
   overflow: hidden;
   transition: 0.5s;
@@ -202,11 +201,10 @@
   border-radius: 10px;
 }
 
-.judul-blog h1{
+.judul-blog {
   color: #ecdbba;
   text-transform: uppercase;
   margin-bottom: 20px;
-  font-weight: bold;
   /*margin-left: 20px;*/
 }
 
@@ -299,50 +297,33 @@
   }
 
   .tombol-mode{
-    margin-left: 70px;
-    margin-bottom: 20px;
+    margin-left: 130px;
   }
 
   .search{
-    margin-left: 125px;
-    margin-bottom: 50px;
-    /* padding: 5px; */
+    margin-left: 210px;
+    padding: 5px;
     text-align: center;
-    padding-left: 30px;
   }
 }
 
 
 /*lightmode*/
 
+#lightmode body {
+
+}
+
 #lightmode .navbar{
-  /* background-color: #D9D7F1; */
-  background-color: transparent;
+  background-color: #D9D7F1;
+  border-bottom-color: black;
   transition: 0.5s;
-  border-color: black;
-}
-
-#lightmode .tombol-navbar{
-  color: black;
-  background-color: white;
-}
-
-#lightmode .tombol-navbar:active{
-  background-color: white;
-}
-
-#lightmode .search{
-  color: black;
 }
 
 #lightmode .main-judul,
 #lightmode .judul-lainnya{
   color: black;
   transition: 0.5s;
-}
-
-#lightmode .judul-blog h1{
-  color: black;
 }
 
 #lightmode .navbar a,
@@ -361,8 +342,7 @@
 #lightmode .header,
 #lightmode .main,
 #lightmode .kolom-crud{
-  /* background-color: #D9D7F1; */
-  background-color: #FFFCDC;
+  background-color: #D9D7F1;
   transition: 0.5s;
 }
 
